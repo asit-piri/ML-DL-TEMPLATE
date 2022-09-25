@@ -3,12 +3,12 @@ import setuptools
 with open("README.md", "r", encoding = "utf-8") as f:
     long_description = f.read()
 
-__version__ = "0.0.0"
+__version__ = "0.0.0"       # update as per your need
 
-REPO_NAME = "IPYNBrendererV2"
-AUTHOR_USER_NAME = "asit-piri"
-SRC_REPO = "IPYNBrendererV2"
-AUTHOR_EMAIL = "asit.piri@gmail.com"
+REPO_NAME = "<YOUR REPO NAME>"
+AUTHOR_USER_NAME = "<YOUR USERNAME>"
+SRC_REPO = "<YOUR REPO NAME>"
+AUTHOR_EMAIL = "<YOUR EMAIL ID>"
 
 setuptools.setup(
     name = SRC_REPO,
